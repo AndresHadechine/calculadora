@@ -2,14 +2,16 @@ Algoritmo calculadora
 	
 	Definir operacion Como Entero
 	
-	Escribir "Ingrese operación a realizar"
+	Escribir "Ingrese operaciÃ³n a realizar"
 	Escribir "1. Suma " 
 	Escribir "2. Resta " 
-	Escribir "3. Multiplicación " 
-	Escribir "4. División " 
+	Escribir "3. MultiplicaciÃ³n " 
+	Escribir "4. DivisiÃ³n " 
 	Escribir "5. Salir"
 	Leer operacion
 	
-	
+	Si operacion = 1 Entonces
+		resultado = num1 + num2
+	FinSi
 	
 FinAlgoritmo
